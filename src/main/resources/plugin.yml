@@ -1,0 +1,12 @@
+name: SpeedMultiplier
+version: ${project.version}
+main: me.specnr.speedmultiplier.SpeedMultiplier
+api-version: 1.16
+authors: [ Specnr ]
+description: A Spigot plugin that multiplies speed every x minutes by y
+website: https://youtube.com/specnr
+commands:
+  speed:
+    description: Starts the speed multiplier
+  speed-reset:
+    description: Resets speed
